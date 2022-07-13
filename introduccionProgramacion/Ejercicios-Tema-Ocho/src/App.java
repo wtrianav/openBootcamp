@@ -2,8 +2,6 @@ public class App {
     public static void main(String[] args) {
         Persona persona = new Persona("Andrés Triana", 37, "3103586621");
         System.out.println("Hola nombre es " + persona.getNombre() + " tengo " + persona.getEdad() + " años y mi teléfono es " + persona.getTelefono());
-
-
     }
 }
 
